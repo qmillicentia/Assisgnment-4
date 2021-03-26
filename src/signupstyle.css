@@ -1,0 +1,96 @@
+p, div {
+    font-family: Lato;
+  }
+    
+  .wrapper {
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./new_logo.jpg');
+    background-repeat: none;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    max-width: 80%;
+    min-width: 100px;
+    min-height: 400px;
+    padding: 20px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    background-color:#00bcd4;
+    margin-left: 830px;
+  }
+  
+  .form-wrapper > h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 4em;
+    font-weight:800;
+    margin-top: 0.25em;
+    color: rgb(#2196f3);
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }  
+  label {
+    margin-bottom: 0.6em;
+    color: rgb(90, 32, 32);
+    font-weight: bold;
+  } 
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d6d1d5;
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #bbb;
+  }
+  
+  button {
+    min-width: 100%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding:  0.938em;
+    border: #00bcd4;
+    border-radius: 4px;
+    background-color: #2196f3;
+    color: #fefefe;
+  }
+  button:hover {
+    background-color: rgba(48, 7, 7, 0.829);
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 5;
+  }
+   
+  .username,
+  .email,
+  .password,
+  .confirmpassword {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+   
+  .submit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
